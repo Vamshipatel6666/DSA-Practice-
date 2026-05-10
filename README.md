@@ -1,5 +1,6 @@
 # DSA-Practice-
 #Recursion 09 - 05 -2026
+#Factorial of N
 #Iterative Solution - O(n) Time and O(1) Space
 import java.util.*;
 
@@ -39,3 +40,9 @@ public class Main {
       return n * fact(n-1);
     }
 }
+
+#Recursion 10 - 05 -2026
+#Sum of Natural Numbers (n=3)
+
+
+
