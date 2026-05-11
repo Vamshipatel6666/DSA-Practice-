@@ -44,5 +44,45 @@ public class Main {
 #Recursion 10 - 05 -2026
 #Sum of Natural Numbers (n=3)
 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n = 3;
+      int ans = sum(n);
+      System.out.println(ans);
+      
+    }
+    static int sum(int n){
+      if(n == 1){
+        return 1;
+      }
+      return n + sum(n-1);
+    }
+}
+
+#fibanocci series 
+general approach
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n = 3;
+      int ans = fib(n);
+      System.out.println(ans);
+      
+    }
+    static int fib(int n){
+      if(n <= 1){
+        return 0;
+      }
+      else{
+        return fib(n-1) + fib(n-2);
+      }
+    }
+}
+
+
+
 
 
